@@ -1,0 +1,19 @@
+.title {
+    &-main {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 89px;
+        letter-spacing: -0.01em;
+
+        color: #FFFFFF;
+    }
+
+    &-card {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 32px;
+        color: #FAFAFA;
+    }
+}

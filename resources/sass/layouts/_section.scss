@@ -1,0 +1,17 @@
+.section {
+    &__home {
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+
+        &-floating {
+            position: absolute;
+            bottom: 160px;
+            left: 0;
+            right: 0;
+        }
+    }
+}

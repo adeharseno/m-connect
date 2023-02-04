@@ -1,0 +1,66 @@
+.indicator {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    z-index: 1;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        position: relative;
+
+        &:before {
+            content: '';
+            position: absolute;
+            right: 12px;
+            width: 2px;
+            top: 65px;
+            height: 75%;
+            display: block;
+            background: white;
+        }
+
+        li {
+            list-style: none;
+            text-align: right;
+            padding: 50px 0;
+            cursor: pointer;
+
+            a {
+                &.active {
+                    span {
+                        box-shadow: 0 0 10px 8px white;
+                    }
+
+                    p {
+                        opacity: 1;
+                    }
+                }
+            }
+            
+            span {
+                display: inline-block;
+                width: 24px;
+                height: 24px;
+                border-radius: 100%;
+                background-color: rgba(255,255,255,0.6);
+                margin-left: 20px;
+                position: relative;
+                top: 2px;
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 30px;
+                text-align: right;
+                letter-spacing: -0.01em;
+                color: #FFFFFF;
+                opacity: 0.6;
+                display: inline-block;
+            }
+        }
+    }
+
+}
