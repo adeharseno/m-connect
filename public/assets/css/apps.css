@@ -10843,6 +10843,11 @@ textarea.form-control-lg {
   right: 20px;
   z-index: 1;
 }
+@media screen and (max-width: 768px) {
+  .indicator {
+    display: none;
+  }
+}
 .indicator ul {
   margin: 0;
   padding: 0;
@@ -10853,7 +10858,7 @@ textarea.form-control-lg {
   position: absolute;
   right: 12px;
   width: 2px;
-  top: 65px;
+  top: 45px;
   height: 75%;
   display: block;
   background: white;
@@ -10861,7 +10866,7 @@ textarea.form-control-lg {
 .indicator ul li {
   list-style: none;
   text-align: right;
-  padding: 50px 0;
+  padding: 30px 0;
   cursor: pointer;
 }
 .indicator ul li a.active span {
@@ -10907,13 +10912,32 @@ textarea.form-control-lg {
   right: 0;
 }
 
+.img-icon {
+  max-height: 80px;
+}
+@media screen and (max-width: 768px) {
+  .img-icon {
+    max-width: 70px;
+  }
+}
+
+#second .section__home-floating {
+  bottom: 50px;
+}
+
 .title-main {
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
-  line-height: 89px;
+  font-size: 60px;
+  line-height: 80px;
   letter-spacing: -0.01em;
   color: #FFFFFF;
+}
+@media screen and (max-width: 768px) {
+  .title-main {
+    font-size: 36px;
+    line-height: 46px;
+  }
 }
 .title-card {
   font-style: normal;

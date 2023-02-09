@@ -3,7 +3,7 @@
 
     <main class="section">
         <section id="first" class="section__home" style="background-image: url('{{ asset('assets/images/Rectangle-223.jpg') }}');">
-            <div class="section__home-floating">
+            <div class="section__home-floating" style="bottom: 100px;">
                 <div class="container">
                     <div class="row justify-content-center text-center">
                         <div class="col-12 col-md-8">

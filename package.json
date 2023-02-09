@@ -21,6 +21,7 @@
         "@popperjs/core": "^2.11.6",
         "bootstrap": "^5.2.3",
         "jquery": "^3.6.3",
-        "slick-carousel": "^1.8.1"
+        "slick-carousel": "^1.8.1",
+        "swiper": "^9.0.3"
     }
 }

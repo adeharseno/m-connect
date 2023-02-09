@@ -4,6 +4,10 @@
     right: 20px;
     z-index: 1;
 
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+
     ul {
         margin: 0;
         padding: 0;
@@ -14,7 +18,7 @@
             position: absolute;
             right: 12px;
             width: 2px;
-            top: 65px;
+            top: 45px;
             height: 75%;
             display: block;
             background: white;
@@ -23,7 +27,7 @@
         li {
             list-style: none;
             text-align: right;
-            padding: 50px 0;
+            padding: 30px 0;
             cursor: pointer;
 
             a {

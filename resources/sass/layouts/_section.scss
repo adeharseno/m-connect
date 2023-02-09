@@ -15,3 +15,17 @@
         }
     }
 }
+
+.img-icon {
+    max-height: 80px;
+
+    @media screen and (max-width: 768px) {
+        max-width:70px;
+    }
+}
+
+#second {
+    .section__home-floating {
+        bottom: 50px;
+    }
+}
